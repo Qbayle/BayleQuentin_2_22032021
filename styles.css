@@ -1,0 +1,36 @@
+@font-face 
+{	
+	font-family: 'ralewayregular';
+	src: url('fonts/ralewayregular.ttf');
+}
+
+nav
+{
+	font-family: 'ralewayregular'
+}
+p
+{
+	font-family: 'ralewayregular';
+}
+
+#conteneur
+{
+	display: flex;
+	justify-content: space-between
+	flex-wrap: nowrap;
+}
+
+#hébergement:hover 
+{
+	color: #0065FC;
+}
+
+#activités:hover
+{
+	color: #0065FC;
+}
+
+#inscription
+{
+	color: #0065FC;
+}
