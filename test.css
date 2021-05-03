@@ -102,28 +102,27 @@ p
 
 .fa-map-marker-alt
 {
-	border: 1px #F2F2F2 solid ;
 	border-radius: 10px 0px 0px 10px;
 	background-color: #F2F2F2;
 	margin-right: -5px;
-	padding: 12px;
+	padding: 13px;
 }
 
 #rechercher
 {
 	border: 1px #F2F2F2 solid;
-	margin-right: -4px;
+	margin-right: -6px;
 	padding: 14px 25px 11px 15px;
 	width: 150px;	
 }
 
 .btn
 {
-	border: 1px #0065FC solid ;
+	border: 1px solid;
 	border-radius: 0 10px 10px 0;
 	background-color: #0065FC;
 	color: white;
-	padding: 14px 5px 11px 5px;
+	padding: 15px 6px 12px 6px;
 }
 
 .btn i
@@ -161,17 +160,15 @@ em
 .fa-heart,
 .fa-dog
 {
-	border: 1px #DEEBFF solid;
 	border-radius: 50%;
 	background-color: #DEEBFF;
 	margin-right: 20px;
-	padding: 8px;
+	padding: 9px;
 	color: #0065FC;
 }
 
 .fa-child
 {
-	border: 1px #DEEBFF solid;
 	border-radius: 50%;
 	background-color: #DEEBFF;
 	margin-right: 20px;
@@ -291,20 +288,20 @@ strong
 .image-hdeux,
 .image-htrois
 {
-	border: 4px white solid;
 	border-radius: 10px;
 	background-color: white;
 	margin: 30px;
+	padding: 4px;
 }
 
 .image-hquatre,
 .image-hcinq,
 .image-hsix
 {
-	border: 4px white solid;
 	border-radius: 10px;
 	background-color: white;
 	margin: 30px 30px 65px 30px;
+	padding: 4px;
 }
 
 .plus
@@ -320,7 +317,6 @@ strong
 	height: 700px;
 	width: 600px;
 	background-color: #F2F2F2;
-	border: 1px #F2F2F2 solid;
 	border-radius: 20px;
 }
 
@@ -385,11 +381,11 @@ strong
 .image-ptrois
 {
 	display: flex;
-	border: 4px white solid;
 	border-radius: 10px;
 	background-color: white;
 	width: 80%;
 	margin: 20px 40px 20px 40px;
+	padding: 4px;
 	
 }
 
@@ -504,7 +500,6 @@ footer
 {
 	flex-shrink: 0;
 	color: black;
-	border-top: 1px #F2F2F2 solid;
 	background-color: #F2F2F2;
 	margin-top: 80px;
 }
@@ -880,7 +875,6 @@ footer
 
 	.btn
 	{
-		border: 1px #0065FC solid ;
 		border-radius: 10px;
 		background-color: #0065FC;
 		color: white;
@@ -1043,7 +1037,7 @@ footer
 	.image-hcinq,
 	.image-hsix
 	{
-		border: 1px white outset;
+		
 		border-radius: 10px;
 		background-color: white;
 		margin: 10px;
@@ -1104,3 +1098,38 @@ footer
 		width: 200px;
 	}
 }
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
