@@ -210,6 +210,7 @@ em
 .hebergement-populaire 
 {
 	display: flex;
+	justify-content: space-between;
 }
 
 .hebergement-populaire a
@@ -572,7 +573,7 @@ footer
 	.hebergement:hover,
 	.activites:hover
 	{
-		padding-top: 20px;
+		padding-top: 15px;
 	}
 	
 	.hebergement,
@@ -666,7 +667,7 @@ footer
 	.bloc-populaires
 	{
 		width: 260px;
-		margin: 0 0 0 20px;
+		margin: 0 15px 0 15px;
 	}
 
 	.bloc-populaires img

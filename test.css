@@ -15,9 +15,11 @@ body
 nav
 {
     height: 90px;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
+	justify-content: center;
+	margin: auto;
 }
 
 nav a
@@ -32,9 +34,7 @@ nav a
 
 #logo img
 {
-    position: relative;
-    top : 20%;
-    left : 2%;
+	margin-top: 2%;
 }
 
 .hebergement
@@ -79,12 +79,16 @@ nav a
 
 .bloc-top
 {
-	margin: 0 30px 0 30px;
+	width: 90%;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: auto;
 }
 
 .bloc-top h1
 {
-	font-size: 1.4em;
+	font-size: xx-large;
 	font-weight: bold;
 	color: black;
 	margin-bottom: 10px;
@@ -99,31 +103,34 @@ p
 .bloc-rechercher
 {
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .fa-map-marker-alt
 {
 	border-radius: 10px 0px 0px 10px;
 	background-color: #F2F2F2;
-	margin-right: -5px;
-	padding: 13px;
+	padding: 17px;
 }
 
 #rechercher
 {
-	border: 1px #F2F2F2 solid;
-	margin-right: -5px;
-	padding: 14px 25px 11px 15px;
-	width: 150px;	
+	padding: 17px 0 14px 20px;
+	width: 200px;	
+	border-top: 2px #F2F2F2 solid;
+	border-bottom: 2px #F2F2F2 solid;
+	border-left: none;
+	border-right: none;
 }
 
 .btn
 {
-	border: 1px solid;
+	border-color: #0065FC;
 	border-radius: 0 10px 10px 0;
 	background-color: #0065FC;
 	color: white;
-	padding: 15px 6px 12px 6px;
+	padding: 19px 17px 16px 17px;
 }
 
 .btn i
@@ -140,6 +147,7 @@ em
 {
 	width: 60%;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	margin: 30px 0 30px -40px;
 }
@@ -207,9 +215,13 @@ em
 	margin-bottom: 20px;
 }
 
-.hebergement-populaire 
+.hebergement-populaire
 {
+	width: 90%;
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
 }
 
 .hebergement-populaire a
@@ -224,34 +236,36 @@ strong
 
 .bloc-hebergements
 {
-	height: 700px;
-	width: 1000px;
+	max-height: 700px;
+	max-width: 1800px;
+	margin-right: 20px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	margin: 0 250px 0 30px;
-}
-
-.bloc-hebergements img
-{
-	height: 120px;
-	width: 250px;
-	object-fit: cover;
-	border-radius: 10px 10px 0 0;
 }
 
 .bloc-hebergements h1
 {
+	margin-top: 40px;
+	margin-left: 70px;
 	font-size: 1.4em;
 	font-weight: bold;
 	color: black;
-	margin: 50px 0 -10px 50px;
 }
 
 .galerie-une
 {
 	display: flex;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+.galerie-une img
+{
+	object-fit: cover;
+	border-radius: 10px 10px 0 0;
+	max-width: 280px;
+	max-height: 180px;
 }
 
 .galerie-une h2
@@ -286,21 +300,14 @@ strong
 
 .image-hune,
 .image-hdeux,
-.image-htrois
-{
-	border-radius: 10px;
-	background-color: white;
-	margin: 30px;
-	padding: 4px;
-}
-
+.image-htrois,
 .image-hquatre,
 .image-hcinq,
 .image-hsix
 {
 	border-radius: 10px;
 	background-color: white;
-	margin: 30px 30px 65px 30px;
+	margin: 20px;
 	padding: 4px;
 }
 
@@ -308,32 +315,28 @@ strong
 {
 	color:black;
 	font-weight: bold;
-	text-decoration: none;
-	margin-left: 50px;
+	margin-left: 70px;
 }
 
 .bloc-populaires
 {
-	height: 700px;
-	width: 600px;
+	max-height: 700px;
+	max-width: 800px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	margin: 0 30px 0 30px;
-}
-
-.bloc-populaires img
-{
-	height: 150px;
-	width: 120px;
-	object-fit: cover;
-	border-radius: 10px 0 0 10px;
+	margin-left: 20px;
 }
 
 .titre-icone
 {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: -30px;
+}
+
+.titre-icone i
+{
+	margin: 40px 20px 0 0;
 }
 
 .bloc-populaires h1
@@ -341,20 +344,22 @@ strong
 	font-size: 1.4em;
 	font-weight: bold;
 	color: black;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 40px;
-}
-
-.titre-icone i
-{
-	margin: 45px 60px 30px 0px;
 }
 
 .galerie-deux
 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+}
+
+.galerie-deux img
+{
+	height: 150px;
+	width: 120px;
+	object-fit: cover;
+	border-radius: 10px 0 0 10px;
 }
 
 .galerie-deux h2
@@ -362,19 +367,14 @@ strong
 	font-size: 1.1em;
 	font-weight: bold;
 	color: black;
-	margin: 5px 150px 5px 20px
+	margin: 5px 120px 5px 20px
 }
 
 .galerie-deux p
 {
 	font-size: 0.8em;
 	color: black;
-	margin: 3px 10px 50px 20px
-}
-
-.petoiles
-{
-	margin: 3px 10px 3px 20px
+	margin: 3px 10px 30px 20px
 }
 
 .image-pune,
@@ -385,7 +385,7 @@ strong
 	border-radius: 10px;
 	background-color: white;
 	width: 85%;
-	margin: 20px 40px 20px 40px;
+	margin: 20px;
 	padding: 4px;	
 }
 
@@ -397,9 +397,15 @@ strong
 	flex-direction: column;
 }
 
+.petoiles
+{
+	margin: 3px 10px 3px 20px
+}
+
 .bloc-activites
 {
-	margin: 50px 30px 0 30px;
+	width: 90%;
+	margin: auto;
 }
 
 .bloc-activites a
@@ -511,6 +517,7 @@ footer
 	justify-content: flex-start;
 	align-items: flex-start;
 	font-size: 0.9em;
+	padding: 0 100px;
 }
 
 .bloc
@@ -562,13 +569,11 @@ footer
 
 @media screen and (max-width: 1025px) and (min-width: 426px)
 {
-	#logo img
+	nav
 	{
-		position: relative;
-   		top : 10%;
-    	left : 4%;
-	}
-	
+		margin: 0;
+    }
+
 	.hebergement:hover,
 	.activites:hover
 	{
@@ -580,12 +585,6 @@ footer
 	.inscription
 	{
 		padding: 20px;
-	}
-
-
-	.bloc-top
-	{
-		margin: 0 0 15px 20px;
 	}
 
 	.bloc-filtres
@@ -620,7 +619,8 @@ footer
 	.bloc-hebergements
 	{
 		width: 460px;
-		margin: 0 0 15px 15px;
+		margin-left: 0;
+		margin-right: 15px;
 	}
 	
 	.bloc-hebergements img
@@ -631,7 +631,7 @@ footer
 
 	.bloc-hebergements h1
 	{
-		margin: 20px 0 10px 10px
+		margin: 10px;
 	}
 
 	.galerie-une
@@ -777,9 +777,12 @@ footer
 {
 	nav
 	{
-        flex-wrap: wrap;
-        height: 150px;
-    }
+		flex-wrap: wrap;
+		height: 160px;
+		width: 100%;
+		margin: 0;
+	}
+
 
     .hebergement
 	{
@@ -797,14 +800,15 @@ footer
     
     #logo
 	{
+		padding-top: 20px;
         order : 0;
-        flex-basis: 80%;    
+        flex-basis: 70%; 
     }
     
     .inscription
 	{
         order : 1;
-        flex-basis: 20%;    
+        flex-basis: 30%;    
     }
 
     .hebergement:hover,
@@ -814,6 +818,18 @@ footer
 		color: #0065FC;
 		border-bottom: 3px solid #0065FC;
     }
+
+	.bloc-top h1
+	{
+		width: 300px;
+		margin-top: 30px
+	}
+
+	p
+	{
+		margin-bottom: 30px;
+		width: 270px;
+	}
 
 	.bloc-rechercher
 	{
@@ -844,24 +860,6 @@ footer
 		font-size: 0;
 	}
 
-	.bloc-top
-	{
-		
-		margin: 0 0 15px 25px;
-	}
-
-	.bloc-top h1
-	{
-		width: 300px;
-		margin-top: 30px
-	}
-
-	p
-	{
-		margin-bottom: 30px;
-		width: 270px;
-	}
-	
 	.bloc-filtres
 	{
 		display: flex;
@@ -895,6 +893,7 @@ footer
 	{
 		display: flex;
 		flex-wrap: wrap-reverse;
+		margin: 0px
 	}
 
 	.bloc
@@ -954,9 +953,25 @@ footer
 	.image-pdeux,
 	.image-ptrois
 	{
-		width: 370px;
-		margin: 20px
+		width: 300px;
+		margin: 5px
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	.bloc-hebergements
 	{
@@ -1002,8 +1017,7 @@ footer
 	{
 		display: flex;
 		flex-direction: column;
-		width: 358px;
-		margin-left: 33px;
+		width: 100%;
 	}
 
 	.galerie-trois
@@ -1020,8 +1034,8 @@ footer
 	.image-acinq img,
 	.image-asix img
 	{
-		height: 230px;
-		width: 360px;
+		height: 140px;
+		width: 280px;
 	}
 
 	.image-aune,
@@ -1032,13 +1046,14 @@ footer
 	.image-asix 
 	{
 		height: 230px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	.contenu-footer
 	{
 		display: flex;
 		flex-direction: column;
+		padding: 40px;
 	}
 
 	.liste-general li,
