@@ -448,7 +448,7 @@ strong
 .image-aune img,
 .image-aquatre img 
 {
-	height: 470px;
+	height: 500px;
 	width: 100%;
 	min-width: 240px;
 	object-fit: cover;
@@ -478,50 +478,47 @@ strong
 {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	max-height: 475px;
 }
 
 .image-aune,
 .image-aquatre
 {
-	flex: 30%;
 	border: 0px white outset;
 	border-radius: 10px;
-	width: 95%;
-	max-height: 475px;
-	margin: auto;
+	height: 500px;
+	margin: 40px;
+	flex: 1;
 } 
 
 .image-atrois,
 .image-acinq
 {
-	flex: 20%;
 	border: 0px white outset;
 	border-radius: 10px;
-	width: 95%;
-	max-height: 200px;
-	margin: auto;
+	max-height: 210px;
+	width: 100%;
 }
 
 .image-adeux,
 .image-asix 
 {
-	flex: 20%;
 	border: 0px white outset;
 	border-radius: 10px;
-	width: 95%;
-	max-height: 255px;
-	margin: auto;
+	max-height: 260px;
+	width: 100%;
 }
 
-.image-adeux,
+.image-adeux
+{
+	margin: 40px 0;
+}
+
 .image-acinq
 {
-	margin-top: 0;
-}
-
-.image-asix
-{
-	margin-bottom: 0;
+	margin: 40px 0;
 }
 
 footer 
@@ -683,7 +680,7 @@ footer
 	.image-asix
 	{
 		height: 200px;
-		margin: 10px auto;
+		margin: 10px 0;
 		flex: none;
 	}
 
@@ -934,6 +931,7 @@ footer
 	.image-acinq,
 	.image-asix 
 	{
+		width: 95%;
 		margin: 10px auto;
 		height: 200px;
 		flex: none;
